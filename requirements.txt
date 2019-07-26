@@ -1,1 +1,2 @@
 Django==2.2.3
+pre-commit==1.17.0
