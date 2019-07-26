@@ -1,0 +1,30 @@
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v2.2.3
+  hooks:
+  - id: check-added-large-files
+  - id: check-ast
+  - id: check-docstring-first
+  - id: check-merge-conflict
+  - id: check-symlinks
+  - id: check-vcs-permalinks
+  - id: check-yaml
+  - id: debug-statements
+  - id: detect-private-key
+  - id: end-of-file-fixer
+  - id: file-contents-sorter
+    files: .gitignore
+  - id: flake8
+    args: ["--ignore=E501"]
+  - id: name-tests-test
+  - id: requirements-txt-fixer
+  - id: trailing-whitespace
+
+- repo: https://github.com/asottile/add-trailing-comma
+  rev: v1.4.1
+  hooks:
+  - id: add-trailing-comma
+
+- repo: https://github.com/asottile/reorder_python_imports
+  rev: v1.6.1
+  hooks:
+  - id: reorder-python-imports
