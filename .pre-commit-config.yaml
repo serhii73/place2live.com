@@ -14,7 +14,7 @@
   - id: file-contents-sorter
     files: .gitignore
   - id: flake8
-    args: ["--ignore=E501"]
+    args: ["--ignore=E501,F401"]
   - id: name-tests-test
   - id: requirements-txt-fixer
   - id: trailing-whitespace
