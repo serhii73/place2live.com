@@ -6,8 +6,8 @@ cache: pip
 before_install:
 - pip install -r requirements.txt
 script:
-    pre-commit run --all-files
-    ./manage.py test
+    - pre-commit run --all-files
+    - python manage.py test
 notifications:
     webhooks: https://www.travisbuddy.com/
     on_success: never
