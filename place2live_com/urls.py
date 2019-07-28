@@ -18,4 +18,8 @@ from django.urls import include
 from django.urls import path
 
 
-urlpatterns = [path("admin/", admin.site.urls), path("", include("maps.urls"))]
+urlpatterns = [
+    path("admin/", admin.site.urls),
+    path("", include("maps.urls")),
+    path("", include("frontend.urls")),
+]
