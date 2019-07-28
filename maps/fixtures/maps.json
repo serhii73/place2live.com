@@ -1,0 +1,36 @@
+[
+    {
+        "model": "maps.country",
+        "pk": 1,
+        "fields": {
+            "name": "Narnia",
+            "freedomhouse_score": 23,
+            "quality_of_life_index": 22,
+            "purchasing_power_index": 1,
+            "safety_index": null,
+            "health_care_index": 34,
+            "cost_of_living_index": 55,
+            "property_price_to_income_ratio": 66,
+            "traffic_commute_time_index": 66,
+            "pollution_index": 44,
+            "climate_index": 4
+        }
+    },
+    {
+        "model": "maps.country",
+        "pk": 2,
+        "fields": {
+            "name": "Telmar",
+            "freedomhouse_score": null,
+            "quality_of_life_index": 12,
+            "purchasing_power_index": null,
+            "safety_index": 22,
+            "health_care_index": null,
+            "cost_of_living_index": null,
+            "property_price_to_income_ratio": null,
+            "traffic_commute_time_index": 33,
+            "pollution_index": null,
+            "climate_index": null
+        }
+    }
+]
