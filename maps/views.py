@@ -1,4 +1,7 @@
-from django.http import HttpResponse
+from django.shortcuts import render
+from .models import Country
+
 
 def show_map(request):
-    return HttpResponse('Hello, world!')
+    countries = Country.objects.all()
+    return render(request, 'maps/index.html', {'countries': countries})

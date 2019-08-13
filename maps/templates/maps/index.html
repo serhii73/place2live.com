@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>place2live</title>
+</head>
+<body>
+<h1>
+    {% for country in countries %}
+        {{ country.name }} - {{ country.population }}
+    {% endfor %}
+</h1>
+</body>
+</html>
