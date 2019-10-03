@@ -16,4 +16,23 @@
 
 # place2live.com
 
-##### Python 3.7
+## Running This Project
+
+1. Install [python3](https://www.python.org/downloads), [pipenv](https://github.com/pypa/pipenv#installation) and [git](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/)
+2. Clone this repository  
+   `git clone https://github.com/serhii73/place2live.com`
+3. Get in the `place2live.com` and create a environment  
+   `pipenv --python 3.7`
+4. Spawn a shell with the dependencies of this project  
+   `pipenv shell`
+5. Run the Django migrations to set up your models
+   ```
+   python manage.py makemigrations
+   python manage.py makemigrations polls
+   python manage.py migrate
+   ```
+6. Start the development server  
+   `python manage.py runserver`
+7. In your browser, go to http://localhost:8000
+
+    
