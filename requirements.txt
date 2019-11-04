@@ -1,2 +1,2 @@
-Django==2.2.6
+Django==2.2.7
 pre-commit==1.20.0
